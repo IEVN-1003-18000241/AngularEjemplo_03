@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProductoListComponent } from './productos/producto-list/producto-list.component';
 import { ProductoFilterPipe } from './productos/producto-filter.pipe';
+import { OperasBasComponent } from './calculos/operas-bas/operas-bas.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { ProductoFilterPipe } from './productos/producto-filter.pipe';
     AppComponent,
     ProductoListComponent,
     ProductoFilterPipe,
+    OperasBasComponent,
   ],
   imports: [
     BrowserModule,
